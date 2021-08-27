@@ -1,0 +1,125 @@
+/*убираем внешние отступы */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #000000;
+}
+
+.top-line {
+  padding-top: 14px;
+  margin: auto;
+  width: 60%;
+  height: 44px;
+}
+
+.info {
+  display: flex;
+  height: 16px;
+  float: left;
+}
+
+.info .icon {
+  margin-right: 16px;
+}
+
+.phone {
+  font: 12px/16px PT Sans, sans-serif;
+  color: #969696;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.auth > .enter:hover {
+  color: #ffffff;
+}
+
+.exit {
+  margin-right: 12px;
+  width: 14px;
+  height: 14px;
+}
+
+.auth > :last-child {
+  height: 16px;
+  color: #969696;
+}
+
+.enter {
+  font: 12px/16px PT Sans, sans-serif;
+  width: max-content;
+  color: #969696;
+  text-decoration: none;
+}
+
+.second-line {
+  margin: auto;
+  width: 60%;
+  height: 80px;
+}
+
+.second-line > .right {
+  align-items: center;
+  display: inline-flex;
+  float: right;
+}
+
+.logo {
+  width: 104px;
+  height: 34px;
+  margin-top: 15px;
+  float: left;
+}
+
+.menu-item {
+  display: inline-flex;
+}
+
+.menu-item li {
+  cursor: pointer;
+  padding: 0 20px;
+  list-style-type: none;
+  font: 14px/80px PT Sans, sans-serif;
+  text-transform: uppercase;
+  color: #969696;
+}
+
+.menu-item li:hover {
+  color: #ffffff;
+  background-color: #1f1f1f;
+}
+
+.rectangle {
+  width: 1920px;
+  height: 810px;
+}
+
+.top-content {
+  background-size: cover;
+  background-image: url('img/content.png');
+  width: 100%;
+  height: 810px;
+}
+
+.right > :not(:first-child) {
+  cursor: pointer;
+}
+
+.cart {
+  margin-left: 61px;
+  width: 22px;
+  height: 22px;
+}
+
+.lens {
+  margin-left: 44px;
+  width: 17px;
+  height: 17px;
+}
