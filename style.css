@@ -150,6 +150,10 @@ header {
   text-transform: uppercase;
 }
 
+.season-new-collection {
+  display: flex;
+}
+
 .season {
   padding-top: 93px;
   text-align: center;
@@ -201,4 +205,12 @@ header {
   color: #ffffff;
   font: 18px/24px 'Playfair Display';
 }
+
+.new-collection {
+  background-size: cover;
+  background-image: url("img/bg-new-collection.png");
+  width: 45%;
+  height: 723px;
+}
+
 
