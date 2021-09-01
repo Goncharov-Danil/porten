@@ -213,4 +213,30 @@ header {
   height: 723px;
 }
 
+.new-collection .collection-text {
+  text-align: center;
+  padding-top: 484px;
+}
 
+.new-collection .collection-text span {
+  color: #ffffff;
+  font: 36px/58px 'Playfair Display';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.new-collection .collection-text hr {
+  width: 120px;
+  color: #ffffff;
+  margin: 30px auto;
+}
+
+.collection-catalog button {
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  padding: 12px 28px;
+  color: #ffffff;
+  font: 18px/32px 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
