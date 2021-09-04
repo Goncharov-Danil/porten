@@ -1,3 +1,10 @@
 .uppercase {
   font-size: calc(100% + 10px) !important;
 }
+
+.imprint {
+  border: 1px solid;
+  color: #ffffff;
+  width: 120px;
+  margin: auto;
+}
