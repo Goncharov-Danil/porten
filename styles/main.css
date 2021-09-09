@@ -104,7 +104,7 @@ header {
   flex-direction: column;
   display: flex;
   background-size: cover;
-  background-image: url('../img/content.png');
+  background-image: url('../img/backgrounds/content.png');
   width: 100%;
   height: 810px;
 }
@@ -204,7 +204,7 @@ header {
 
 .new-collection {
   background-size: cover;
-  background-image: url("../img/bg-new-collection.png");
+  background-image: url("../img/backgrounds/bg-new-collection.png");
   width: 45%;
   height: 723px;
 }
@@ -297,7 +297,6 @@ header {
   padding-top: 120px;
   background-color: #000000;
   width: 100%;
-  height: 1070px;
 }
 
 .nev-heading {
@@ -315,4 +314,124 @@ header {
   margin: 81px auto 0;
   flex-wrap: wrap;
 }
+
+.brands {
+  width: 100%;
+  height: 362px;
+  background-color: #0f0f0f;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.brands span {
+  color: #ffffff;
+  font: bold 36px/48px 'Playfair Display';
+  text-transform: uppercase;
+}
+
+.brands hr {
+  margin-top: 40px;
+}
+
+.brands-logo {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 40px auto 74px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../img/backgrounds/bagcraund-footer.png");
+  width: 100%;
+  height: 400px;
+}
+
+.shops-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+}
+
+.shops-info span {
+  font: 24px/32px 'Playfair Display';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.shops-info p {
+  padding-top: 40px;
+  font: 14px/21px 'PT Sans';
+  color: #ffffff;
+}
+
+.categories {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 33%;
+  padding-top: 80px;
+}
+
+.categories span {
+  font: 24px/32px 'Playfair Display';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.categories button {
+  margin-top: 40px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: inherit;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.mailing {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding-top: 80px;
+}
+
+.mailing span {
+  font: 24px/32px 'Playfair Display';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mailing p {
+  padding-top: 40px;
+  font: 14px/21px 'PT Sans';
+  color: #ffffff;
+}
+
+.mailing-form {
+  display: flex;
+  margin-top: 37px;
+}
+
+.mailing-form input {
+  background-color: #ffffff77;
+}
+
+.mailing-form input::placeholder {
+  color: #ffffff;
+}
+
+.mailing-form button {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: inherit;
+}
+
 
